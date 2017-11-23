@@ -1,5 +1,5 @@
 var keys = document.getElementsByClassName("key");
-var specialKeys = [{keyCode:192,keyName:"`"},{keyCode:9,keyName:"tab"},{keyCode:20,keyName:"caps lock"},{keyCode:16,keyName:"shift"},{keyCode:189,keyName:"-"},{keyCode:187,keyName:"="},{keyCode:219,keyName:"["},{keyCode:221,keyName:"]"},{keyCode:220,keyName:"\\"},{keyCode:186,keyName:";"},{keyCode:222,keyName:"'"},{keyCode:188,keyName:","},{keyCode:190,keyName:"."},{keyCode:191,keyName:"/"},{keyCode:8,keyName:"delete"},{keyCode:13,keyName:"return"},{keyCode:32,keyName:""}];
+var specialKeys = [{keyCode:192,keyName:"`"},{keyCode:9,keyName:"tab"},{keyCode:20,keyName:"caps lock"},{keyCode:16,keyName:"shift"},{keyCode:189,keyName:"-"},{keyCode:187,keyName:"="},{keyCode:219,keyName:"["},{keyCode:221,keyName:"]"},{keyCode:220,keyName:"\\"},{keyCode:186,keyName:";"},{keyCode:222,keyName:"'"},{keyCode:188,keyName:","},{keyCode:190,keyName:"."},{keyCode:191,keyName:"/"},{keyCode:8,keyName:"delete"},{keyCode:13,keyName:"return"},{keyCode:32,keyName:" "}];
 
 function getKeyPressed(keyCode) {
 	var keyPressed;
@@ -50,5 +50,13 @@ function depress(key) {
 			}
 			break;
 		}
+	}
+}
+
+function autoPress(string) {
+	stringKeys = string.split('');
+	for (var i = 0; i <= stringKeys.length-1; i++) {
+		setTimeout(function(){ press(stringKeys[i].toUpperCase()) }, 1000);
+		setTimeout(function(){ depress(stringKeys[i].toUpperCase()) }, 1000);
 	}
 }
