@@ -12,7 +12,6 @@ function getKeyPressed(keyCode) {
 			keyPressed = String.fromCharCode(keyCode);
 		}
 	}
-	console.log(keyPressed);
 	return keyPressed;
 }
 
