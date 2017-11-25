@@ -1,0 +1,116 @@
+/*
+Every keycap set has 5 default color's that come with it.
+More can be added by providing additional classes. Each set
+consists of 3 default colors, and 3 default pressed colors.
+The 1 background-color color for the page. This makes it so that
+the top margins work correctly. The case colors are optional
+too.
+*/
+
+/*This is the default keycap color scheme.*/
+.default {
+	background-color: #A9DDF3;
+}
+.defaultCase {
+	background-color: #ccc;
+	box-shadow: 0px 0px 0px 5px #fff, 0px 35px 0px 5px #B3B3B3, 0px 45px 0px 5px #999999;
+}
+.default1 {
+	color: #fff;
+	background-color: #666666;
+	box-shadow: 0px 10px 0px 0px #4D4D4D, 0px 20px 0px 0px #444444;
+}
+.default2 {
+	color: #fff;
+	background-color: #29ABE2;
+	box-shadow: 0px 10px 0px 0px #1F80AA, 0px 20px 0px 0px #1d728f;
+}
+.default3 {
+	color: #fff;
+	background-color: #ED1C24;
+	box-shadow: 0px 10px 0px 0px #B2151B, 0px 20px 0px 0px #A0151F;
+}
+.pressedDefault1, .default1:active {
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #4D4D4D, 0px 10px 0px 0px #444444;
+}
+.pressedDefault2, .default2:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #1F80AA, 0px 10px 0px 0px #1d728f;
+}
+.pressedDefault3, .default3:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #B2151B, 0px 10px 0px 0px #A0151F;
+}
+
+/*This is the carbon keycap color scheme.*/
+.carbon {
+	background-color: #ffb968;
+}
+.carbonCase {
+	background-color: #818181;
+	box-shadow: 0px 0px 0px 5px #9A9A9A, 0px 35px 0px 5px #636363, 0px 45px 0px 5px #505151;
+}
+.carbon1 {
+	color: #000;
+	background-color: #fef4cd;
+	box-shadow: 0px 10px 0px 0px #e6ddb9, 0px 20px 0px 0px #d3cbaa;
+}
+.carbon2 {
+	color: #ef6420;
+	background-color: #666666;
+	box-shadow: 0px 10px 0px 0px #4D4D4D, 0px 20px 0px 0px #444444;
+}
+.carbon3 {
+	color: #000;
+	background-color: #ef6420;
+	box-shadow: 0px 10px 0px 0px #cd561c, 0px 20px 0px 0px #b34a18;
+}
+.pressedCarbon1, .carbon1:active {
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #e6ddb9, 0px 10px 0px 0px #d3cbaa;
+}
+.pressedCarbon2, .carbon2:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #4D4D4D, 0px 10px 0px 0px #444444;
+}
+.pressedCarbon3, .carbon3:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #cd561c, 0px 10px 0px 0px #b34a18;
+}
+
+/*This is the nautilus keycap color scheme.*/
+.nautilus {
+	background-color: #6a7676;
+}
+.nautilusCase {
+	background-color: #818181;
+	box-shadow: 0px 0px 0px 5px #9A9A9A, 0px 35px 0px 5px #636363, 0px 45px 0px 5px #505151;
+}
+.nautilus1 {
+	color: #93f5ff;
+	background-color: #265381;
+	box-shadow: 0px 10px 0px 0px #1d4566, 0px 20px 0px 0px #16374e;
+}
+.nautilus2 {
+	color: #f8d35c;
+	background-color: #46546e;
+	box-shadow: 0px 10px 0px 0px #344053, 0px 20px 0px 0px #2e3844;
+}
+.nautilus3 {
+	color: #2e3844;
+	background-color: #f8d35c;
+	box-shadow: 0px 10px 0px 0px #e4bd52, 0px 20px 0px 0px #cfab4d;
+}
+.pressedNautilus1, .nautilus1:active {
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #1d4566, 0px 10px 0px 0px #16374e;
+}
+.pressedNautilus2, .nautilus2:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #344053, 0px 10px 0px 0px #2e3844;
+}
+.pressedNautilus3, .nautilus3:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #e4bd52, 0px 10px 0px 0px #cfab4d;
+}
