@@ -17,6 +17,14 @@ html, body {
 	padding: 25px;
 	border-radius: 3px;
 }
+.shadow {
+	width: auto;
+	height: auto;
+	background-color: black;
+	padding: 5px 5px 50px 5px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px 5px rgba(0,0,0,0.3);
+}
 .key-row {
 	background-color: #333333;
 	height: 71px;
@@ -41,6 +49,10 @@ html, body {
 	font-size: 25px;
 	font-family: "Helvetica", sans-serif;
 	cursor: pointer;
+	box-sizing: border-box;
+}
+.key:hover {
+	border: 2px solid #00ff00;
 }
 .key p:nth-child(1) {
 	margin: 0;
@@ -82,7 +94,4 @@ html, body {
 }
 .mediumFont {
 	font-size: 16px;
-}
-select {
-	margin-bottom: 30px;
 }

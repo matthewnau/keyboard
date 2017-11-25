@@ -105,3 +105,6 @@ function changeColors() {
 	colorScheme = selectedColor;
 	selectBox.blur();
 }
+
+//initialize the default color scheme
+changeColors();

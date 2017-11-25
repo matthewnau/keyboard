@@ -45,7 +45,7 @@ too.
 
 /*This is the carbon keycap color scheme.*/
 .carbon {
-	background-color: #ffb968;
+	background-color: #e48416;
 }
 .carbonCase {
 	background-color: #818181;
@@ -113,4 +113,76 @@ too.
 .pressedNautilus3, .nautilus3:active{
 	margin-top:10px;
 	box-shadow: 0px 5px 0px 0px #e4bd52, 0px 10px 0px 0px #cfab4d;
+}
+
+/*This is the pulse keycap color scheme.*/
+.pulse {
+	background-color: #97765F;
+}
+.pulseCase {
+	background-color: #CECDCD;
+	box-shadow: 0px 0px 0px 5px #E6E7E7, 0px 35px 0px 5px #B5B5B5, 0px 45px 0px 5px #9A9A9A;
+}
+.pulse1 {
+	color: #93f5ff;
+	background-color: #171818;
+	box-shadow: 0px 10px 0px 0px #0B0B0C, 0px 20px 0px 0px #000101;
+}
+.pulse2 {
+	color: #171818;
+	background-color: #93f5ff;
+	box-shadow: 0px 10px 0px 0px #7fd7de, 0px 20px 0px 0px #6eb9c0;
+}
+.pulse3 {
+	color: #fff;
+	background-color: #DA3631;
+	box-shadow: 0px 10px 0px 0px #A52B28, 0px 20px 0px 0px #952624;
+}
+.pressedPulse1, .pulse1:active {
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #0B0B0C, 0px 10px 0px 0px #000101;
+}
+.pressedPulse2, .pulse2:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #7fd7de, 0px 10px 0px 0px #6eb9c0;
+}
+.pressedPulse3, .pulse3:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #A52B28, 0px 10px 0px 0px #952624;
+}
+
+/*This is the laser keycap color scheme.*/
+.laser {
+	background-color: #000;
+}
+.laserCase {
+	background-color: #3D3E3E;
+	box-shadow: 0px 0px 0px 5px #4C4C4B, 0px 35px 0px 5px #323232, 0px 45px 0px 5px #222322;
+}
+.laser1 {
+	color: #93f5ff;
+	background-color: #24215B;
+	box-shadow: 0px 10px 0px 0px #171948, 0px 20px 0px 0px #0C0E34;
+}
+.laser2 {
+	color: #D13864;
+	background-color: #221F46;
+	box-shadow: 0px 10px 0px 0px #121233, 0px 20px 0px 0px #0A091F;
+}
+.laser3 {
+	color: #24215B;
+	background-color: #D13864;
+	box-shadow: 0px 10px 0px 0px #B73568, 0px 20px 0px 0px #9A2F5F;
+}
+.pressedLaser1, .laser1:active {
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #171948, 0px 10px 0px 0px #0C0E34;
+}
+.pressedLaser2, .laser2:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #121233, 0px 10px 0px 0px #0A091F;
+}
+.pressedLaser3, .laser3:active{
+	margin-top:10px;
+	box-shadow: 0px 5px 0px 0px #B73568, 0px 10px 0px 0px #9A2F5F;
 }
