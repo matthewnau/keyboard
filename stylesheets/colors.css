@@ -30,6 +30,9 @@ too.
 	background-color: #ED1C24;
 	box-shadow: 0px 10px 0px 0px #B2151B, 0px 20px 0px 0px #A0151F;
 }
+.default1:hover, .default2:hover, .default3:hover {
+	border: 3px solid #00ff00;
+}
 .pressedDefault1, .default1:active {
 	margin-top:10px;
 	box-shadow: 0px 5px 0px 0px #4D4D4D, 0px 10px 0px 0px #444444;
@@ -65,6 +68,9 @@ too.
 	color: #000;
 	background-color: #ef6420;
 	box-shadow: 0px 10px 0px 0px #cd561c, 0px 20px 0px 0px #b34a18;
+}
+.carbon1:hover, .carbon2:hover, .carbon3:hover {
+	border: 3px solid #00c3ff;
 }
 .pressedCarbon1, .carbon1:active {
 	margin-top:10px;
@@ -102,6 +108,9 @@ too.
 	background-color: #f8d35c;
 	box-shadow: 0px 10px 0px 0px #e4bd52, 0px 20px 0px 0px #cfab4d;
 }
+.nautilus1:hover, .nautilus2:hover, .nautilus3:hover {
+	border: 3px solid #ff00de;
+}
 .pressedNautilus1, .nautilus1:active {
 	margin-top:10px;
 	box-shadow: 0px 5px 0px 0px #1d4566, 0px 10px 0px 0px #16374e;
@@ -138,6 +147,9 @@ too.
 	background-color: #DA3631;
 	box-shadow: 0px 10px 0px 0px #A52B28, 0px 20px 0px 0px #952624;
 }
+.pulse1:hover, .pulse2:hover, .pulse3:hover {
+	border: 3px solid #8a00ff;
+}
 .pressedPulse1, .pulse1:active {
 	margin-top:10px;
 	box-shadow: 0px 5px 0px 0px #0B0B0C, 0px 10px 0px 0px #000101;
@@ -173,6 +185,9 @@ too.
 	color: #24215B;
 	background-color: #D13864;
 	box-shadow: 0px 10px 0px 0px #B73568, 0px 20px 0px 0px #9A2F5F;
+}
+.laser1:hover, .laser2:hover, .laser3:hover {
+	border: 3px solid #00ff00;
 }
 .pressedLaser1, .laser1:active {
 	margin-top:10px;

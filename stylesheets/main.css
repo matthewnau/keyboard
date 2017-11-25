@@ -51,9 +51,6 @@ html, body {
 	cursor: pointer;
 	box-sizing: border-box;
 }
-.key:hover {
-	border: 2px solid #00ff00;
-}
 .key p:nth-child(1) {
 	margin: 0;
 	margin-bottom:2px;
