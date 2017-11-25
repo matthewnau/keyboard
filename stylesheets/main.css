@@ -95,3 +95,6 @@ html, body {
 .mediumFont {
 	font-size: 16px;
 }
+select {
+	margin-bottom: 20px;
+}
