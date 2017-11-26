@@ -1,12 +1,3 @@
-/*
-Every keycap set has 5 default color's that come with it.
-More can be added by providing additional classes. Each set
-consists of 3 default colors, and 3 default pressed colors.
-The 1 background-color color for the page. This makes it so that
-the top margins work correctly. The case colors are optional
-too.
-*/
-
 /*This is the default keycap color scheme.*/
 .default {
 	background-color: #A9DDF3;
@@ -14,6 +5,9 @@ too.
 .defaultCase {
 	background-color: #ccc;
 	box-shadow: 0px 0px 0px 5px #fff, 0px 35px 0px 5px #B3B3B3, 0px 45px 0px 5px #999999;
+}
+.default1:hover, .default2:hover, .default3:hover {
+	border: 3px solid #00ff00;
 }
 .default1 {
 	color: #fff;
@@ -29,9 +23,6 @@ too.
 	color: #fff;
 	background-color: #ED1C24;
 	box-shadow: 0px 10px 0px 0px #B2151B, 0px 20px 0px 0px #A0151F;
-}
-.default1:hover, .default2:hover, .default3:hover {
-	border: 3px solid #00ff00;
 }
 .pressedDefault1, .default1:active {
 	margin-top:10px;
@@ -54,6 +45,9 @@ too.
 	background-color: #818181;
 	box-shadow: 0px 0px 0px 5px #9A9A9A, 0px 35px 0px 5px #636363, 0px 45px 0px 5px #505151;
 }
+.carbon1:hover, .carbon2:hover, .carbon3:hover {
+	border: 3px solid #00c3ff;
+}
 .carbon1 {
 	color: #000;
 	background-color: #fef4cd;
@@ -68,9 +62,6 @@ too.
 	color: #000;
 	background-color: #ef6420;
 	box-shadow: 0px 10px 0px 0px #cd561c, 0px 20px 0px 0px #b34a18;
-}
-.carbon1:hover, .carbon2:hover, .carbon3:hover {
-	border: 3px solid #00c3ff;
 }
 .pressedCarbon1, .carbon1:active {
 	margin-top:10px;
@@ -93,6 +84,9 @@ too.
 	background-color: #818181;
 	box-shadow: 0px 0px 0px 5px #9A9A9A, 0px 35px 0px 5px #636363, 0px 45px 0px 5px #505151;
 }
+.nautilus1:hover, .nautilus2:hover, .nautilus3:hover {
+	border: 3px solid #ff00de;
+}
 .nautilus1 {
 	color: #93f5ff;
 	background-color: #265381;
@@ -107,9 +101,6 @@ too.
 	color: #2e3844;
 	background-color: #f8d35c;
 	box-shadow: 0px 10px 0px 0px #e4bd52, 0px 20px 0px 0px #cfab4d;
-}
-.nautilus1:hover, .nautilus2:hover, .nautilus3:hover {
-	border: 3px solid #ff00de;
 }
 .pressedNautilus1, .nautilus1:active {
 	margin-top:10px;
@@ -132,6 +123,9 @@ too.
 	background-color: #CECDCD;
 	box-shadow: 0px 0px 0px 5px #E6E7E7, 0px 35px 0px 5px #B5B5B5, 0px 45px 0px 5px #9A9A9A;
 }
+.pulse1:hover, .pulse2:hover, .pulse3:hover {
+	border: 3px solid #8a00ff;
+}
 .pulse1 {
 	color: #93f5ff;
 	background-color: #171818;
@@ -146,9 +140,6 @@ too.
 	color: #fff;
 	background-color: #DA3631;
 	box-shadow: 0px 10px 0px 0px #A52B28, 0px 20px 0px 0px #952624;
-}
-.pulse1:hover, .pulse2:hover, .pulse3:hover {
-	border: 3px solid #8a00ff;
 }
 .pressedPulse1, .pulse1:active {
 	margin-top:10px;
@@ -171,6 +162,9 @@ too.
 	background-color: #3D3E3E;
 	box-shadow: 0px 0px 0px 5px #4C4C4B, 0px 35px 0px 5px #323232, 0px 45px 0px 5px #222322;
 }
+.laser1:hover, .laser2:hover, .laser3:hover {
+	border: 3px solid #00ff00;
+}
 .laser1 {
 	color: #93f5ff;
 	background-color: #24215B;
@@ -185,9 +179,6 @@ too.
 	color: #24215B;
 	background-color: #D13864;
 	box-shadow: 0px 10px 0px 0px #B73568, 0px 20px 0px 0px #9A2F5F;
-}
-.laser1:hover, .laser2:hover, .laser3:hover {
-	border: 3px solid #00ff00;
 }
 .pressedLaser1, .laser1:active {
 	margin-top:10px;
