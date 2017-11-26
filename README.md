@@ -6,10 +6,17 @@ To use the keyboard, simply begin pressing keys on your keyboard. You will see t
 <p align="center">
 <img src="https://media.giphy.com/media/xT0xeIzRPRA8Y1dOJG/giphy.gif">
 </p>
+
 Keys can also be pressed by clicking on each one with a mouse. This achieves the same effect as pressing that key on the keyboard. When the mouse is hovered over a key on the virtual keyboard, a colored outline shows up on the edges of the key to let users know which key is about to be pressed.
 
 <p align="center">
 <img src="https://media.giphy.com/media/3o6fIS9ukDAoz8mv8A/giphy.gif">
+</p>
+
+In addition to key highlighting, this keyboard offers users the ability to change between the different color schemes included. To do this, simply click the `select` box located above the keyboard, and choose the option that best suits you. Each option represents the name of that specific color scheme.
+
+<p align="center">
+<img src="https://media.giphy.com/media/3ohs7KhjMnY4UdVvDa/giphy.gif">
 </p>
 
 ---
