@@ -40,3 +40,20 @@ Just as this keyboard comes with default themes, you can create your own very ea
    box-shadow: 0px 0px 0px 5px #fff, 0px 35px 0px 5px #B3B3B3, 0px 45px 0px 5px #999999;
 }
 ```
+4. Make a class to set the `border` of each key for when the `:hover` psuedo class is applied. The syntax is the same as the following three classes, with `:hover` on the very end. Instead of styling each one individually like below, this will apply to all three to improve consistency. Pick a color that has high constrast with the colors you intend to use.
+
+```css
+.default1:hover, .default2:hover, .default3:hover {
+   border: 3px solid #00ff00;
+}
+```
+5. Make a class to set the first color associated with this theme. It's naming syntax is `name of theme`+`number of color` (there are only 3, but feel free to add more.) The `background-color` is the color that the top of the key will be. The key has 2 `box-shadow`'s. Respectively, they are the color of the middle and bottom rows for each key. Finally, the `color` property represents the color of the font for the legends on the key.
+
+```css
+.default1 {
+   color: #fff;
+   background-color: #666666;
+   box-shadow: 0px 10px 0px 0px #4D4D4D, 0px 20px 0px 0px #444444;
+}
+```
+6. Repeat step 5 for the 2nd and 3rd colors. The naming syntax should be the same as the first one, just with a `2` or `3` instead of a `1` at the end of the class name.
