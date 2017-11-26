@@ -22,4 +22,21 @@ In addition to key highlighting, this keyboard offers users the ability to chang
 ---
 ## Customization
 
-This keyboard can be customized very easily. To change the color of the main keys, simply edit the `.key` class in `main.css`. The `background-color` and `box-shadow` properties compose the colors associated with each key. To change the color of the blue and red keys, simply modify the same properties for the `.color2` and `.color3` classes.
+Just as this keyboard comes with default themes, you can create your own very easily. To add a new color scheme, open up the `colors.css` file and navigate to the bottom. Every color theme has 9 main components that need editing. use the following guide to make your own color theme. Please watch syntax carefully, the class names need to follow a specific format and are case sensitive!
+
+1. Choose a name for your theme. This will be used for every class associated with the theme.
+2. Make a class with the name of your theme completely lower case such as `default`. This class is what changes the background color of the page.
+
+```css
+.default {
+   background-color: #A9DDF3;
+}
+```
+3. Make a class to modify the colors of the keyboard's casing. The `background-color` represents the color of the inner casing. The next modification required is the `box-shadow` property. Do not change the values of the margins, only the color associated with each shadow. the first shadow color represents the outline of the keyboard, the second is the large layer second from the bottom. Finally, the last color is the bottom layer of the keyboard case. The syntax for this class name is `name of theme`+`Case`.
+
+```css
+.defaultCase {
+   background-color: #ccc;
+   box-shadow: 0px 0px 0px 5px #fff, 0px 35px 0px 5px #B3B3B3, 0px 45px 0px 5px #999999;
+}
+```
