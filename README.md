@@ -57,3 +57,19 @@ Just as this keyboard comes with default themes, you can create your own very ea
 }
 ```
 6. Repeat step 5 for the 2nd and 3rd colors. The naming syntax should be the same as the first one, just with a `2` or `3` instead of a `1` at the end of the class name.
+7. Make a class to represent what a pressed key looks like. It's naming syntax is `pressed`+`name of theme (with first letter capitalized)`+`number of color`, `name of theme`+`number of color`+`:active`. Each property represents the same things as the previous class, except these values have a smaller box-shadow. The colors should be the exact same!
+
+```css
+.pressedDefault1, .default1:active {
+   margin-top:10px;
+   box-shadow: 0px 5px 0px 0px #4D4D4D, 0px 10px 0px 0px #444444;
+}
+```
+8. Repeat step 7 for the 2nd and 3rd colors. The naming syntax should be the same as the first one, just with a `2` or `3` instead of a `1` at the end of the class name.
+9. The final step to complete the custom color scheme is to add the theme option to the `<select>` box in `index.html`. Add a new `<option>` with its contents being `name of theme (with first letter capitalized)`. It also needs a `value` attribute that matches the name exactly. Then close the `<option>` and the color theme will be added!
+
+```html
+<select>
+   <!--Add your new option below all the existing themes-->
+   <option value="Default">Default</option>
+</select>
