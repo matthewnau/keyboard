@@ -1,11 +1,11 @@
-//Declare varibales to list all keys on the keyboard.
-var keys = document.getElementsByClassName("key");
-var selectBox = document.getElementsByTagName("select")[0];
-var colorScheme = 'Default'
-var keystrokes = [];
+//Declare letibales to list all keys on the keyboard.
+let keys = document.getElementsByClassName("key");
+let selectBox = document.getElementsByTagName("select")[0];
+let colorScheme = 'Default'
+let keystrokes = [];
 
 //Define an array to hold objects that map out keys to keycodes
-var specialKeys = [
+let specialKeys = [
 	{keyCode:192,keyName:"`"},
 	{keyCode:9,keyName:"tab"},
 	{keyCode:20,keyName:"caps lock"},
@@ -31,8 +31,8 @@ document.addEventListener("keyup", function(event) {depress(getKeyPressed(event.
 selectBox.addEventListener("change", function(event) {changeColors();})
 
 function getKeyPressed(keyCode) {
-	var keyPressed;
-	for (var i = 0; i < specialKeys.length; i++) {
+	let keyPressed;
+	for (let i = 0; i < specialKeys.length; i++) {
 		if (specialKeys[i].keyCode === keyCode) {
 			keyPressed = specialKeys[i].keyName.toUpperCase();
 			break;
@@ -45,7 +45,7 @@ function getKeyPressed(keyCode) {
 }
 
 function press(key) {
-	for (var i = 0; i < keys.length; i++) {
+	for (let i = 0; i < keys.length; i++) {
 		if (keys[i].getElementsByClassName("primary")[0].innerText === key) {
 			if (keys[i].classList.contains(colorScheme.toLowerCase()+'2') === true) {
 				keys[i].classList.add('pressed'+colorScheme+'2');
@@ -62,7 +62,7 @@ function press(key) {
 }
 
 function depress(key) {
-	for (var i = 0; i < keys.length; i++) {
+	for (let i = 0; i < keys.length; i++) {
 		if (keys[i].getElementsByClassName("primary")[0].innerText === key) {
 			if (keys[i].classList.contains(colorScheme.toLowerCase()+'2') === true) {
 				keys[i].classList.remove('pressed'+colorScheme+'2');
@@ -80,7 +80,7 @@ function depress(key) {
 
 function changeColors() {
 	selectedColor = selectBox.options[selectBox.selectedIndex].value;
-	for (var i = 0; i < keys.length; i++) {
+	for (let i = 0; i < keys.length; i++) {
 		if (keys[i].classList.contains(colorScheme.toLowerCase()+'1')) {
 			keys[i].classList.remove(colorScheme.toLowerCase()+'1');
 			keys[i].classList.add(selectedColor.toLowerCase()+'1');
