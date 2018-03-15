@@ -6,13 +6,20 @@
     	<link href="stylesheets/colors.css" rel="stylesheet">
 	</head>
 	<body class="default">
-		<select>
-			<option value="Default">Default</option>
-			<option value="Carbon">Carbon</option>
-			<option value="Nautilus" selected>Nautilus</option>
-			<option value="Pulse">Pulse</option>
-			<option value="Laser">Laser</option>
-		</select>
+		<input autofocus type="text" placeholder="Start typing!" />
+		<div>
+			<button>Clear</button>
+			<select>
+				<option value="Default">Default</option>
+				<option value="Carbon">Carbon</option>
+				<option value="Nautilus" selected>Nautilus</option>
+				<option value="Pulse">Pulse</option>
+				<option value="Laser">Laser</option>
+				<option value="White">White</option>
+			</select>
+			<button>Save</button>
+			<button>Google</button>
+		</div>
 		<div class="shadow">
 			<div class="keyboard-case defaultCase">
 				<div class="keyboard">
@@ -214,7 +221,7 @@
 						<div class="key default2 _1-25u smallFont">
 							<p class="primary">alt</p>
 						</div>
-						<div class="key default1 _6-25u">
+						<div class="key default1 _6-25u smallFont">
 							<p class="primary"></p>
 						</div>
 						<div class="key default2 _1-25u smallFont">
@@ -233,6 +240,8 @@
 				</div>
 			</div>
 		</div>
+		<a class="hidden"></a>
+		<a class="hidden"></a>
     	<script type="text/javascript" src="script/main.js"></script>
 	</body>
 </html>
